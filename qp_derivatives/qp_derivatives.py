@@ -1,5 +1,5 @@
 import numpy as np
-import pydrake.solvers.mathematicalprogram as mp
+from pydrake.solvers import MathematicalProgram as mp
 from scipy.sparse import csc_matrix
 from scipy.sparse.linalg import lsqr
 
